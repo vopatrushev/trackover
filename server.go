@@ -40,7 +40,7 @@ import (
 //     с параметром -help.
 //
 // flag.String возвращает указатель на строку, где хранится значение -addr.
-var addr = flag.String("addr", "127.0.0.1:8080",
+var addr = flag.String("addr", "192.168.2.241:8080",
 	"TCP address to listen to for incoming connections")
 
 // main - функция, с которой начинается выполнение программы.
