@@ -16,8 +16,9 @@ package main
 //   * https://godoc.org/github.com/valyala/fasthttp
 import (
 	"flag"
-	"github.com/valyala/fasthttp"
 	"log"
+
+	"github.com/valyala/fasthttp"
 )
 
 // Объявляем глобальную переменную addr, куда будет записано значение параметра
@@ -75,5 +76,5 @@ func main() {
 
 // handler обрабатывает входящие запросы.
 func handler(ctx *fasthttp.RequestCtx) {
-	ctx.WriteString("Hello, world!\n")
+	ctx.WriteString("This is my first page!\n")
 }
